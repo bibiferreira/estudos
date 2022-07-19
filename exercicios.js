@@ -125,6 +125,4 @@ const totalDias = Number(prompt(`Quantos dias de hospedagem? `));
 const diarias = calculaDiarias(numeroHospedes, valorHospede, totalDias);
 const totalImposto = calculaImposto(diarias, 3);
 
-
-
 console.log(`O valor total das diaria é de: R$ ${diarias}, com imposto ficaria ${totalImposto}`);
