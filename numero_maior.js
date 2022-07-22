@@ -5,5 +5,5 @@ const prompt = require('prompt-sync')();
 const numero = Number(prompt('Digite um número: '));
 
 if(numero > 20) {
-  return console.log(`O número ${numero} é maior que 20.`);
+  console.log(`O número ${numero} é maior que 20.`);
 }

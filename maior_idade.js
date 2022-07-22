@@ -5,9 +5,9 @@ const prompt = require('prompt-sync')();
 const idade = Number(prompt('Digite a sua idade: '));
 
 if (idade >= 18 && idade < 60) {
-  return console.log('Você é maior de idade!');
+  console.log('Você é maior de idade!');
 } else if (idade < 18) {
-  return console.log('Você é menor de idade!');
+  console.log('Você é menor de idade!');
 } else {
-  return console.log('Você é idoso(a)!');
+  console.log('Você é idoso(a)!');
 }

@@ -7,6 +7,6 @@ const num2 = Number(prompt('Digite o segundo número: '));
 
 const soma = num1 + num2;
 
-  if (soma > 10) {
-    return console.log('A soma dos dois números é maior que 10');
-  }
+if (soma > 10) {
+  console.log('A soma dos dois números é maior que 10');
+}

@@ -5,9 +5,9 @@ const prompt = require('prompt-sync')();
 const numero = Number(prompt('Digite um número: '));
 
 if (numero > 0) {
-  return console.log(`O número ${numero} é positivo`);
+  console.log(`O número ${numero} é positivo`);
 } else if (numero < 0) {
-  return console.log(`O número ${numero} é negativo`);
+  console.log(`O número ${numero} é negativo`);
 } else {
-  return console.log(`${numero} é neutro`);
+  console.log(`${numero} é neutro`);
 }
