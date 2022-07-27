@@ -14,4 +14,16 @@ for (let i = 0; i < 8 ; ) {
  i++;
 }
 
+// Opção apenas usando while.
+
+// let num = 0;
+// let soma = 0;
+// let i = 0;
+
+// while (i < 8) {
+//   num = parseInt(prompt('Digite um número inteiro: '));
+//   soma = soma + num;
+//   i++;
+// }
+
 console.log(`A soma dos números é ${soma}`);
